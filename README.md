@@ -3,7 +3,7 @@ This repository contains my DSA practice solutions and notes.
 
 ## Topics Covered So Far
 - Arrays
-
+- Binary trees
 
 ## Goals
 - Improve problem solving

@@ -1,0 +1,25 @@
+#Description: Given the root of a binary tree, return the preorder traversal of its nodes' values.
+
+#Approach Description: Preorder traversal is known as depth-first traversal, hence we shall
+#start by traversing until we reach the leftmost node, append in to the list,
+#go up one level to its parent, go to its right child, add it to the list and recursively
+#apply this method until we reach have traversed each element once.
+
+class Solution:
+    def preorderTraversal(self, root):
+        res = []
+
+        def preorder(node):
+            if not node:
+                return
+
+            res.append(node.val)
+            preorder(node.left)
+            preorder(node.right)
+
+        preorder(root)
+
+        return res
+
+#Time Complexity: O(n), we interact with each node once
+#Space complexity: O(n), for the list
