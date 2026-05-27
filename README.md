@@ -1,2 +1,11 @@
-# leetcode-solutions
-A repository of my leetcode solutions
+# LeetCode Solutions
+This repository contains my DSA practice solutions and notes.
+
+## Topics Covered So Far
+- Arrays
+
+
+## Goals
+- Improve problem solving
+- Learn algorithmic patterns
+- Prepare for interviews and contests
