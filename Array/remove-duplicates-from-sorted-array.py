@@ -22,4 +22,4 @@ class Solution:
         return write
 
 #Time Complexity: O(n)
-#Space complexity: O(1) for a constant variable "write"
+#Space complexity: O(1)
