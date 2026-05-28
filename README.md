@@ -5,6 +5,7 @@ This repository contains my DSA practice solutions and notes.
 - Array
 - Binary tree
 - String
+- Linked List
 
 ## Goals
 - Improve problem solving
