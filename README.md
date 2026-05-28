@@ -2,8 +2,9 @@
 This repository contains my DSA practice solutions and notes.
 
 ## Topics Covered So Far
-- Arrays
-- Binary trees
+- Array
+- Binary tree
+- String
 
 ## Goals
 - Improve problem solving
