@@ -22,5 +22,5 @@ class Solution:
 
         return res
 
-#Time Complexity: O(n), we interact with each node once
-#Space complexity: O(n), for the list
+#Time Complexity: O(n)
+#Space complexity: O(n), due to recursion
