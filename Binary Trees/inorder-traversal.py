@@ -20,3 +20,6 @@ class Solution:
 
         inorder(root)
         return res
+
+#Time Complexity: O(n)
+#Space complexity: O(n), due to recursion
