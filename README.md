@@ -6,6 +6,8 @@ This repository contains my DSA practice solutions and notes.
 - Binary tree
 - String
 - Linked List
+- Bit Manipulation
+
 
 ## Goals
 - Improve problem solving
