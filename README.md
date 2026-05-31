@@ -24,6 +24,8 @@ leetcode-solutions/
 ├── Linked List/
 ├── Binary Trees/
 ├── Bit Manipulation/
+├── Sliding Window/
+├── Two Pointer/
 └── ...
 ```
 
