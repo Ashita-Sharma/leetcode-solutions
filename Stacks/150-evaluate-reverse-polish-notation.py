@@ -7,7 +7,7 @@
 #naming them b and a, and operate accordingly.
 
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
+    def evalRPN(self, tokens):
         stack = []
         for token in tokens:
             if token not in "+-*/":
