@@ -13,6 +13,7 @@ This repository contains my solutions to LeetCode problems as part of my journey
 - Bit Manipulation
 - Binary Search
 - Hashing
+- Stacks
 - Recursion
 
 ## Repository Structure
@@ -26,6 +27,8 @@ leetcode-solutions/
 ├── Bit Manipulation/
 ├── Sliding Window/
 ├── Two Pointer/
+├── Stacks/
+├── Greedy/
 └── ...
 ```
 
