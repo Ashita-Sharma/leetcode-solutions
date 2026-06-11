@@ -21,5 +21,5 @@ class Solution:
         return target
 
 
-#Time Complexity: O(n)
+#Time Complexity: O(nlogn)
 #Space complexity: O(1) for constant variable
