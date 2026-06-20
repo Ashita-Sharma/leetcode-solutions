@@ -24,5 +24,11 @@ class Solution:
             num += 1
         return init_array
 
+#Note: For an O(n) time, we can replace both while loops with
+        # while len(init_array) < n:
+        #     odd_part = [2*x-1 for x in init_array if 2*x-1 <= n]
+        #     even_part = [2*x for x in init_array if 2*x <= n]
+        #     init_array = odd_part + even_part
+        # return init_array
 #Time Complexity: O(n^2)
 #Space complexity: O(1)
