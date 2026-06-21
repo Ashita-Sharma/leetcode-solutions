@@ -41,12 +41,10 @@ leetcode-solutions/
 ├── Strings/
 ├── Linked Lists/
 ├── Binary Trees/
-├── Binary Search/
 ├── Sliding Window/
 ├── Two Pointers and Prefix Sums/
 ├── Hashing/
-├── Stacks/
-├── Greedy/
+├── Stacks and Queues/
 ├── Maths and Sorting/
 ├── Bit Manipulation/
 ├── Contest Questions/
