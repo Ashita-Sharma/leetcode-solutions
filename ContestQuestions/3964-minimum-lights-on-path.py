@@ -50,3 +50,5 @@ class Solution:
         min_bulb += (count + 2) // 3
         return min_bulb
 
+#Time Complexity: O(n) where n is length of array
+#Space complexity: O(n)
