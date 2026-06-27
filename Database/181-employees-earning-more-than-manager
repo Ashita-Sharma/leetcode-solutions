@@ -1,0 +1,25 @@
+Table: Employee
+
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| salary      | int     |
+| managerId   | int     |
++-------------+---------+
+id is the primary key (column with unique values) for this table.
+Each row of this table indicates the ID of an employee, their name, salary, and the ID of their manager.
+
+
+Write a solution to find the employees who earn more than their managers.
+
+Return the result table in any order.
+
+Approach: First, lets take the first employee as E1. If E1 has a manager, we check their salary by taking
+E1's manager id to be E2's employee id. Then, we simply check their salaries and select the employees
+getting paid more than their manager.
+
+SELECT e1.name as Employee from Employee e1
+JOIN employee e2 on e1.managerid = e2.id
+and e1.salary > e2.salary
