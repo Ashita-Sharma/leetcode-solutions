@@ -23,5 +23,5 @@ class Solution:
         return answer
 
 
-# Time Complexity: O(n^2)
+# Time Complexity: O(n)
 # Space Complexity: O(1)
