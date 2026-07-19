@@ -24,6 +24,5 @@ class Solution:
         ans += x*x_count
         return ans
 
-sol = Solution()
-res = sol.rearrangeString(s = "axe", x = "o", y = "x")
-print(res)
+#Time Complexity: O(n)
+#Space complexity: O(1)
